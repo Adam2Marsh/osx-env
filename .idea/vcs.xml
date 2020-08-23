@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/extra-modules" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/prezto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/prezto/modules/autosuggestions/external" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/prezto/modules/completion/external" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/prezto/modules/fasd/external" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/prezto/modules/history-substring-search/external" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/prezto/modules/prompt/external/agnoster" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/prezto/modules/prompt/external/async" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/prezto/modules/prompt/external/powerlevel10k" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/prezto/modules/prompt/external/powerlevel9k" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/prezto/modules/prompt/external/powerlevel9k/shunit2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/prezto/modules/prompt/external/powerline" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/prezto/modules/prompt/external/pure" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/prezto/modules/syntax-highlighting/external" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sonique-modules" vcs="Git" />
+  </component>
+</project>

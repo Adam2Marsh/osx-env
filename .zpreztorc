@@ -1,0 +1,72 @@
+#
+# Sets Prezto options.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+#
+# General
+#
+
+zstyle ':prezto:*:*' color 'yes'
+
+zstyle ':prezto:load' pmodule-dirs ${ZDOTDIR:-$HOME}/extra-modules ${ZDOTDIR:-$HOME}/adam-extra-modules
+
+# Set the Prezto modules to load (browse modules).
+# The order matters.... REALLY matters
+zstyle ':prezto:load' pmodule \
+  'environment' \
+  'terminal' \
+  'editor' \
+  'syntax-highlighting' \
+  'history' \
+  'history-substring-search' \
+  'directory' \
+  'spectrum' \
+  'utility' \
+  'minikube' \
+  'git-plus' \
+  'update-env' \
+  'completion' \
+  'prompt' \
+  'git' \
+  'kubectl-local' \
+  'docker' \
+  'helm' \
+  'gcloud' \
+  'oracle' \
+  'work-aliases'
+
+# Set the query found color.
+# zstyle ':prezto:module:autosuggestions:color' found ''
+
+zstyle ':prezto:module:minikube' use-minikube-docker 'no'
+
+# Allow the zsh prompt context to be shown.
+zstyle ':prezto:module:editor' ps-context 'yes'
+
+#
+# Git
+#
+
+# Ignore submodules when they are 'dirty', 'untracked', 'all', or 'none'.
+zstyle ':prezto:module:git:status:ignore' submodules 'all'
+
+#
+# Prompt
+#
+
+zstyle ':prezto:module:prompt' theme 'sorin'
+
+#
+# Terminal
+#
+zstyle ':prezto:module:terminal' auto-title 'yes'
+zstyle ':prezto:module:terminal:window-title' format '%n@%m: %s'
+zstyle ':prezto:module:terminal:tab-title' format '%s'
+
+zstyle ':prezto:module:utility' safe-ops 'no'
+
+zstyle ':prezto:module:git-plus' conn-type 'https'
+zstyle ':prezto:module:git-plus' default-repo 'git.sns.sky.com'

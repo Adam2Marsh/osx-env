@@ -1,0 +1,6 @@
+[submodule "prezto"]
+	path = prezto
+	url = https://github.com/sorin-ionescu/prezto.git
+[submodule "extra-modules"]
+	path = extra-modules
+	url = https://github.com/TimWoolford/zprezto-modules.git

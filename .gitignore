@@ -1,0 +1,4 @@
+.zsh_history
+.zhistory
+.zcomp*
+Brewfile.lock.json
