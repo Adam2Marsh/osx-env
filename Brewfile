@@ -10,6 +10,7 @@ cask "google-cloud-sdk"
 cask "visual-studio-code"
 cask "geektool"
 cask "drawio"
+cask "dropbox"
 
 brew "git"
 brew "openssl"

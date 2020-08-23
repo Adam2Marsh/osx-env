@@ -32,11 +32,7 @@ zstyle ':prezto:load' pmodule \
   'prompt' \
   'git' \
   'kubectl-local' \
-  'docker' \
-  'helm' \
-  'gcloud' \
-  'oracle' \
-  'work-aliases'
+  'docker'
 
 # Set the query found color.
 # zstyle ':prezto:module:autosuggestions:color' found ''
