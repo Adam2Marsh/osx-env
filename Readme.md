@@ -1,2 +1,2 @@
 Install using 
-    zsh -c "$(cat first-time-install.zsh)"
+    zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Adam2Marsh/osx-env/master/first-time-install.zsh)"
