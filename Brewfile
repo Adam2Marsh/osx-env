@@ -11,6 +11,8 @@ cask "visual-studio-code"
 cask "geektool"
 cask "drawio"
 cask "dropbox"
+cask "authy"
+cask "steam"
 
 brew "git"
 brew "openssl"
@@ -28,6 +30,6 @@ brew "minikube", args: ['ignore-dependencies']
 brew "python"
 brew "kind"
 brew "terraform"
-
+brew "telnet"
 
 #Install Ansible 2.7.8

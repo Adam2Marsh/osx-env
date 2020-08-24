@@ -7,6 +7,11 @@
     brew update && brew upgrade
     brew tap homebrew/bundle && brew bundle --verbose --file=${ZDOTDIR}/Brewfile
 
+    echo "Update Composer Global"
+    brew install valet-php@7.2 && brew link valet-php@7.2 --force
+    brew install composer
+    composer global require weprovide/valet-plus
+
     if ( [ -d ${ZDOTDIR}/ssh ] ); then
         echo "Adding SSH keys"
         for identityFile in `ls ${ZDOTDIR}/ssh/*_rsa`
