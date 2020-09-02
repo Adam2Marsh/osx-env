@@ -31,5 +31,5 @@ brew "python"
 brew "kind"
 brew "terraform"
 brew "telnet"
-
-#Install Ansible 2.7.8
+brew "ansible"
+brew "node"
