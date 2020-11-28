@@ -13,6 +13,7 @@ cask "drawio"
 cask "dropbox"
 cask "authy"
 cask "steam"
+cask "sequel-pro"
 
 brew "git"
 brew "openssl"

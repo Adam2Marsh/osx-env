@@ -7,8 +7,7 @@
     brew update && brew upgrade
     brew tap homebrew/bundle && brew bundle --verbose --file=${ZDOTDIR}/Brewfile
 
-    echo "Update Composer Global"
-    brew install valet-php@7.2 && brew link valet-php@7.2 --force
+    echo "Update Composer Global"    
     brew install composer
     composer global require weprovide/valet-plus
 
