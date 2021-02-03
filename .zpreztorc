@@ -25,14 +25,13 @@ zstyle ':prezto:load' pmodule \
   'directory' \
   'spectrum' \
   'utility' \
-  'minikube' \
   'git-plus' \
   'update-env' \
   'completion' \
   'prompt' \
   'git' \
   'kubectl-local' \
-  'docker'
+  'brew'
 
 # Set the query found color.
 # zstyle ':prezto:module:autosuggestions:color' found ''

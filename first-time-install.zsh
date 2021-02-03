@@ -22,14 +22,14 @@ if [ -z "${ZDOTDIR}" ]; then
     echo "export ZDOTDIR=${MY_ZDOTDIR}" | sudo tee -a /etc/zshenv >> /dev/null
 fi
 
-# if [ ! -f /usr/local/bin/brew ]; then
-#     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-# fi
+if [ ! -f /usr/local/bin/brew ]; then
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
 
-# echo "Updating brew and forumulae."
-# brew update && brew upgrade
+echo "Updating brew and forumulae."
+brew update && brew upgrade
 
-# brew install git
+brew install git
 
 if [ ! -d ${MY_ZDOTDIR} ]; then
     echo "Cloning osx-env to ${MY_ZDOTDIR}"
@@ -43,5 +43,5 @@ if [ ! -d ${MY_ZDOTDIR} ]; then
     ln -s ${repo_dir} ${MY_ZDOTDIR}
 fi
 
-# brew tap Homebrew/bundle
-# brew bundle --verbose --file=${MY_ZDOTDIR}/Brewfile
+brew tap Homebrew/bundle
+brew bundle --verbose --file=${MY_ZDOTDIR}/Brewfile
