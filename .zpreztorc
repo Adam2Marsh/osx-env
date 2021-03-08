@@ -31,7 +31,8 @@ zstyle ':prezto:load' pmodule \
   'prompt' \
   'git' \
   'kubectl-local' \
-  'brew'
+  'brew' \
+  'valet-plus'
 
 # Set the query found color.
 # zstyle ':prezto:module:autosuggestions:color' found ''

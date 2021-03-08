@@ -1,3 +1,3 @@
-export PATH="$PATH:/opt/homebrew/bin"
+export PATH="/opt/homebrew/bin:$PATH"
 
 FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
